@@ -14,7 +14,7 @@ frozen = False
 def on_press(key):
     try:
         global frozen
-        if (key.char == "f"):
+        if (key.char == "s"):
             frozen = not frozen
             if (frozen):
                 print("Frozen")
